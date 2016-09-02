@@ -2,7 +2,7 @@
 A simple on the go Facebook Album API, design included. Just write a few lines of code and you're good to go!
 
 <h1>Installation</h1>
-&#183; Download all the asset, </br>
+&#183; Download all the assets here, </br>
 &#183; Create your own index at the same directory with facebookalbum.php </br>
 &#183; Add a few lines on your index : </br>
 ```
