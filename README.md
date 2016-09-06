@@ -10,6 +10,7 @@ include_once 'Facebookalbum.php';
 $facebook = new Facebookalbum(); //New Class
 $facebook->setAPI(YOUR_API_KEY_HERE); //Set your API KEY from developers.facebook.com
 $facebook->setAlbumID(YOUR_ALBUM_ID_HERE); //Set your ALBUM ID from prefered Album on any facebook page.
+$facebook->setHeaderColor(COLOR_HEX); //Set Header Color
 $facebook->setTitle(MAIN_TITLE); //Set main title of your albums
 $facebook->setSubTitle(SUB_TITLE); //Set sub title of your albums
 $facebook->renderSource(); //Setup the sources
