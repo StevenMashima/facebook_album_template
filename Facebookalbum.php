@@ -6,6 +6,7 @@ public $album_ID;
 public $title;
 public $sub_title;
 public $object;
+public $header_color;
     public function setAPI($key){
         //Set User API Key
         $this->my_API_key = $key;
@@ -21,6 +22,9 @@ public $object;
     public function setSubTitle($stit){
         $this->sub_title = $stit;
     }
+    public function setHeaderColor($color){
+        $this->header_color = $color;
+    }
     
     public function renderSource(){
         echo '<link rel="stylesheet" href="style.css" />
@@ -35,11 +39,11 @@ public $object;
 }(document, "script", "facebook-jssdk"));</script>';
     }
     public function renderHeader(){
-        echo '<div id="header" style="background-color:#2196F3;">
+        echo '<div id="header" style="background-color:'.$this->header_color.';">
 	<div id="header-text">'.$this->title.'</div>
 </div>
 
-<div id="menu" style="background-color:#2196F3;">
+<div id="menu" style="background-color:'.$this->header_color.';">
 	<div id="menu-text">'.$this->sub_title.'</div>
 </div>
 
