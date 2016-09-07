@@ -125,6 +125,7 @@ body{
 		top:0;
 		cursor:pointer;
 		transition:height 1s ease-in, width 1s ease-in;
+                overflow:hidden;
 		}
 	.image-box:hover{
 		box-shadow:0 5px 58px rgba(0, 0, 0, 0.1), 0 1.5px 6px rgba(0, 0, 0, 0.36);
@@ -173,8 +174,34 @@ body{
 		background-position:center;
 		z-index:1000;
 		}	
+                
+        
+	#ripple-md{
+	position:absolute;
+	height:100%;
+	width:100%;
+	border-radius:50%;
+	background-color:#FFF;
+	opacity:.5;
+	animation:rippleeffect 1.5s;
+	transform:scale(0);
+	}
+        
+        @keyframes rippleeffect{
+	0%{
+		transform:scale(0);
+			
+		}
+	99%{
+		transform:scale(5);
 		
-		
+		}
+	100%{
+		opacity:0;
+		}
+	
+	
+	}
 		
 		
 		

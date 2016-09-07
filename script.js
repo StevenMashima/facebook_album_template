@@ -22,6 +22,7 @@ document.getElementById('header').style.height = "256px";
 window.onscroll = function() {scrollFunction()};
 
 function showPreview(photo){
+        photo.innerHTML += "<div id='ripple-md'></div>";
 	var height = photo.getAttribute("data-fullheight");
 	var width = photo.getAttribute("data-fullwidth");
 	if(photo.style.height == height+"px"){
