@@ -24,6 +24,6 @@ $facebook->renderPagination(); //Render pagination
 <img src='https://lh3.googleusercontent.com/MCCYQb-SESqJf-68Ma8jWYsnHJUk0PsO-eMx0eH_BMw5hCtXJiywX8QOH68PHme2NIfj7X37s3pb9jUDuDJvVdUOa0_Gn_Z52dW-AaaTYMwhAG3bQmz9cu5s-g3jVudFGllaXwqrY3pvh_CaEX0dlKwT0oScSOjwETpsDAOY0f7MWvQ-uIchN8MO6leQPPARxs8xPZ6oeSzS00P1ibFZFHAUNbWADJnwxnSPckkPTpmsZNiMPhRTlPKJ_hPSPhMf_Ae0zcIS5hoEbfu5qxm-WW5eBe9xrE0q9LQKpCZ_Dbv4H2u7YBpcLju9iplmN08Uc4BZy24dk0TzXrxbhxj7EmXIrjjBT-R6iJewT43nlGD8aaVtWryAr8XwTeR0moFKCaDrQzOVeIExkCkNBhLHsTunMlqt0U0Cj2quI6W4BsMLSTWVznKdl0JAiUTYaHn2b5BWo501uNiwLEAWfv_RC4_nf26WL4zADZP1edFiMotSvi1IrOdRpDN08zMl1bpz5M0FcmAe4ftc8QS0POtPuT2stwiRuLxBHpHjuMW5Njz5xborWQpvsTzdNrTlqYuYU5j73_N9=w1366-h662-k'>
 <h1>Demo</h1>
 <ul>
-<li>http://gallery.stevenmashima.xyz/</li>
+<li>http://stevenmashima.xyz/galleries</li>
 <li>http://soccerspirits.xp3.biz/</li>
 </ul>
